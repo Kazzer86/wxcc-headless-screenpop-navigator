@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node build.js)",
+      "Bash(npx webpack:*)",
+      "Bash(grep -o '.\\\\{0,40\\\\}[Ss]creen[Pp]op.\\\\{0,40\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o '.\\\\{0,60\\\\}[Cc]ontact.\\\\{0,60\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'addEventListener\\(e,t\\).\\\\{0,200\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o '.\\\\{0,30\\\\}checkService.\\\\{0,100\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'checkService\\(\\).\\\\{0,80\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'serviceChecker.\\\\{0,100\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'check\\(.\\\\{0,100\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'class.*serviceChecker.\\\\{0,200\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'AqmServiceEvent.\\\\{0,300\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'AqmServiceEvents: Contact.\\\\{0,1000\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'hubEmitter\\\\.\\\\\\(emit\\\\|on\\\\\\)\\([^\\)]\\\\{1,60\\\\}\\)' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o '.\\\\{0,20\\\\}hubEmitter\\\\.emit.\\\\{0,60\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o '.\\\\{0,100\\\\}this\\\\.emit.\\\\{0,100\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'SERVICE.*aqm\\\\.contact\\\\.[^.]\\\\{1,40\\\\}\\\\.listen' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")",
+      "Bash(grep -o 'aqm\\\\.contact\\\\.[^.\\(]\\\\{1,50\\\\}' \"S:/GitLab/wxcc-headless-screenpop-navigator/node_modules/@wxcc-desktop/sdk/dist/index.js\")"
+    ]
+  }
+}

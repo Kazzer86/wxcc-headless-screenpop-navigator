@@ -1,0 +1,31 @@
+{
+  "name": "wxcc-screenpop-navigator",
+  "version": "1.0.0",
+  "description": "Headless Widget für Webex Contact Center – navigiert bei Anrufannahme automatisch zur Screen Pop Custom Page",
+  "main": "src/screenpop-navigator.js",
+  "scripts": {
+    "start": "node server.js 8080",
+    "start:port": "node server.js",
+    "build": "node build.js",
+    "dev": "node server.js 8080"
+  },
+  "keywords": [
+    "webex",
+    "contact-center",
+    "wxcc",
+    "widget",
+    "screenpop"
+  ],
+  "license": "MIT",
+  "author": "",
+  "dependencies": {
+    "@wxcc-desktop/sdk": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-loader": "^10.1.1",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  }
+}
